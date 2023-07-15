@@ -1,0 +1,48 @@
+/* banner.css */
+
+/* Đặt nền là hình ảnh */
+.ct {
+    background-image: url('../../assets/images/index-01.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 40px;
+    /* Khoảng cách lề trái */
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box div {
+    text-align: center;
+    font-size: 24px;
+}
+
+.appointment-btn {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #f51f03;
+    /* Màu nền */
+    color: #ffffff;
+    /* Màu chữ */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.appointment-btn:hover {
+    background-color: #b3330c;
+    /* Màu nền khi di chuột qua */
+}
+
+.appointment-btn:active {
+    background-color: #ffa703;
+    /* Màu nền khi được nhấn */
+}

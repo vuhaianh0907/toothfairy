@@ -1,0 +1,111 @@
+.form1 {
+    width: 1322px;
+    height: 1405px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border-radius: 40px 0px 0px 0px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 908px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="date"],
+.form-container input[type="password"] {
+    width: 908px;
+    height: 62px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.form-container .gender-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Căng lề trái */
+    margin-top: 5px;
+}
+
+.form-container .gender-options label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.form-container .action-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-container button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+
+    border: none;
+    cursor: pointer;
+}
+
+/* Custom styling for file input */
+.form-container input[type="file"] {
+    display: none;
+}
+
+.form-container .custom-file-upload {
+    border: 1px solid #ffffff;
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+.form-container .custom-file-upload:hover {
+    background-color: #eee;
+}
+.image-preview {
+    width: 200px; /* Đặt kích thước rộng */
+    height: auto; /* Giữ tỷ lệ khung hình */
+  }
+  
+  .image-preview img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước của phần tử cha */
+    max-height: 200px; /* Đặt chiều cao tối đa */
+    object-fit: contain; /* Hiển thị toàn bộ ảnh trong khung hình */
+  }
+  

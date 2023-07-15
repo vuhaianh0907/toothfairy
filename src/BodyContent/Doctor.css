@@ -1,0 +1,50 @@
+.doc{
+    display: flex;
+    /* background-color: rgb(153, 71, 71); */
+    /* height: 100px;
+    width: 200px; */
+    /* color: bisque; */
+    border: 5px;
+    align-items:center ;
+    justify-content: center;
+    margin-left: 2vmin;
+    margin-top: 10vmin;
+    /* margin-top: 100px; */
+    border-radius: 10%;
+}
+.container{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    grid-gap: 10px;
+    margin-top: 12vmin;
+    margin-left: 2vmin;
+  }
+  .card{
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    background: white;
+    border-radius: 1.2em;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%),
+      0 8px 16px -8px hsl(0deg 0% 0% / 30%),
+      0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
+    transition: all ease 200ms;
+    text-align: center;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .card .btn{
+    background-color: #000;
+    width: 100%;
+    color:white;
+  }
+  .card a{
+    display: block;
+  }

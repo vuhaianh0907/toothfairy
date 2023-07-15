@@ -1,0 +1,92 @@
+.doctor-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .avatar-container {
+    flex: 0 0 30%;
+    text-align: center;
+  }
+  
+  .doctor-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .info-container {
+    flex: 0 0 70%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .doctor-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .doctor-info {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .info-label {
+    flex: 0 0 30%;
+    font-weight: bold;
+  }
+  
+  .workday-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .workday-label {
+    flex: 0 0 30%;
+    font-weight: bold;
+  }
+  
+  .workday-input {
+    flex: 0 0 70%;
+    padding: 5px;
+  }
+  
+  .timeslot-container {
+    margin-bottom: 10px;
+  }
+  
+  .timeslot-label {
+    font-weight: bold;
+  }
+  
+  .timeslot-button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .timeslot-button.selected {
+    background-color: #3e8eef;
+    color: #fff;
+  }
+  
+  .edit-button-container {
+    text-align: right;
+  }
+  
+  .edit-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3e8eef;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

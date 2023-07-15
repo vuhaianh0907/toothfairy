@@ -1,0 +1,58 @@
+.customer-view-doctor {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .time-selection {
+    margin-bottom: 20px;
+  }
+  
+  .time-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .time-option {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .time-option.active {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .doctor-list {
+    margin-top: 20px;
+  }
+  
+  .doctor-item {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-item h3 {
+    margin: 0;
+  }
+  
+  .doctor-item p {
+    margin: 5px 0;
+  }
+  
+  .doctor-item p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #paging-btn{
+    background-color: unset;
+    font-weight: bold;
+    color: #333;
+  }

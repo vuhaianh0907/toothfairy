@@ -1,0 +1,148 @@
+.profile-page {
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 15vmin;
+  margin-bottom: 5vmin;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.profile-details div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-details label {
+  width: 40vmin;
+  font-weight: bold;
+}
+
+.profile-details input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-form {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.treatment-profile {
+  margin-bottom: 10px;
+}
+
+.input-boxes {
+  margin-bottom: 10px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-box input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-box button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background-color: #0056b3;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.action-buttons button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-buttons button:last-child {
+  margin-right: 0;
+  background-color: #dc3545;
+}
+
+.action-buttons button:hover {
+  background-color: #1e7e34;
+}
+
+.action-buttons button:last-child:hover {
+  background-color: #c82333;
+}
+
+.input-boxes {
+  margin-bottom: 10px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-box label {
+  width: 150px;
+  font-weight: bold;
+}
+
+.input-box input[type='text'] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-box button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background-color: #0056b3;
+}

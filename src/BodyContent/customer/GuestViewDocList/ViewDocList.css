@@ -1,0 +1,45 @@
+.container {
+    /* Add any necessary styling for the container */
+  }
+  
+  .filters {
+    /* Add any necessary styling for the filters */
+  }
+  
+  .doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-y: auto;
+    max-height: 600px; /* Adjust the value as needed to control the maximum height */
+  }
+  
+  .doctor-card {
+    width: 30%; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Add any necessary styling for the doctor card */
+  }
+  
+  .doctor-card img {
+    width: 100%;
+    height: auto;
+    /* Add any necessary styling for the doctor's image */
+  }
+  
+  .doctor-details {
+    width: 100%;
+    text-align: center;
+    /* Add any necessary styling for the doctor's details */
+  }
+  
+  .btn {
+    /* Add any necessary styling for the button */
+  }
+  
+  .advertisement {
+    /* Add any necessary styling for the advertisement section */
+  }
+  

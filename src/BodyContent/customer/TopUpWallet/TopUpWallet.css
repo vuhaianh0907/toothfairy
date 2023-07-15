@@ -1,0 +1,28 @@
+/* TopUpWallet.css */
+
+.top-up-wallet {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .user-info-heading {
+    color: #333;
+  }
+  
+  .user-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .top-up-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .top-up-button:hover {
+    background-color: #45a049;
+  }
+  

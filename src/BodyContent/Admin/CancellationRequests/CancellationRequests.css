@@ -1,0 +1,116 @@
+.cancellation-requests {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cancellation-requests h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .requests-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .requests-section {
+    flex: 1;
+  }
+  
+  .requests-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .request-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 500px;
+    overflow-y: hidden;
+  }
+  
+  .request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .request-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .request-status {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .request-patient,
+  .request-doctor {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .request-reason {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .request-date {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .request-approval {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .request-actions {
+    margin-top: 10px;
+  }
+  
+  .action-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .reject-button {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .approve-button {
+    background-color: #00ff00;
+    color: #fff;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+  }
+  
+  .pagination-button {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .pagination-button.active {
+    background-color: #999;
+  }
+  
